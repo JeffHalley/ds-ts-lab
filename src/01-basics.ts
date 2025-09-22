@@ -15,8 +15,14 @@ const friend2 : Friend = {
   interests: ['Music', 'Sport']
 };
 
+const friend3 : Friend = { // created a new friend just to test if it Matches to colleague correctly
+  name: "Ralph Graham", 
+  phone: "085-98765",
+  age: 29,
+};
 
-export const friends = [friend1, friend2];
+
+export const friends = [friend1, friend2, friend3];
 
 //console.log(friends[1]);
 
